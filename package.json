@@ -11,5 +11,8 @@
   "devDependencies": {
     "newman": "^6.2.0",
     "newman-reporter-htmlextra": "^1.23.1"
+  },
+  "dependencies": {
+    "bookstore-api-test-postman": "file:"
   }
 }
