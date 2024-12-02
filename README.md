@@ -1,5 +1,20 @@
 # bookstore-api-test-postman
 This is demo api testing project using postman for the bookstore api collection
+## Features
+- Automated testing of Bookstore API endpoints.
+- Dynamic data handling with environment variables.
+- Comprehensive HTML reports generated after each test run.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+1. **Node.js** installed on your machine. [Download here](https://nodejs.org/).
+2. **Postman** installed for managing and exporting Postman collections (optional, for modifications).
+
+---
 ## Setup
 
 1. Clone the repository:
