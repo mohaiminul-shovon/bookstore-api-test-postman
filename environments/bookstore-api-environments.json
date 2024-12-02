@@ -1,0 +1,57 @@
+{
+	"id": "f83c9cdb-c846-4cf2-8a2d-c11bc30cc749",
+	"name": "Bookstore-local",
+	"values": [
+		{
+			"key": "BaseURL",
+			"value": "https://bookstore.toolsqa.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "userID",
+			"value": "420c9f8f-7531-4bdf-8ac6-082f834a07ad",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "JWT",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IkFnaGEgS2hhbiIsInBhc3N3b3JkIjoiZUVMMFlZaFZsaEU3WGxrQCEiLCJpYXQiOjE3MzMxMjg4MzR9.xL00sozEgn08LTXQe35sdYOIrq8lqhNbtEC9zHaDBC4",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "randomUsername",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "randomPassword",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "isbnCode",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "",
+			"value": "",
+			"type": "any",
+			"enabled": false
+		},
+		{
+			"key": "isbnCode",
+			"value": "",
+			"type": "any",
+			"enabled": false
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-12-02T13:02:12.687Z",
+	"_postman_exported_using": "Postman/11.21.0"
+}
