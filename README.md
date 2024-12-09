@@ -31,5 +31,6 @@ This is demo api testing project using postman for the bookstore api collection
 4. View the report in reports folder
     ```bash
     bookstore-api-test-postman/
-    |--- reports
-        |--- report.html
+    |--- reports.html
+5. We have integrated Github Action to demonstrate continuous integration via GitHub. 
+        
