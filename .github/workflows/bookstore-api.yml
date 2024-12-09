@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-      
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -35,3 +35,18 @@ jobs:
         run: |
           npm install
           npm run test
+          mkdir deployment && mv test-report.html deployment/
+
+      #    # Upload report as an artifact
+      # - name: Upload Test Report
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: Test Report
+      #     path: ./test-reports/test-report.html
+
+        # Deploy report to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./deployment
