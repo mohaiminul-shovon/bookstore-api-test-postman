@@ -4,7 +4,7 @@
   "description": "This is demo api testing project using postman for the bookstore api collection",
   "main": "index.js",
   "scripts": {
-    "test": "newman run collections/bookstore-api-collection.json -e environments/bookstore-api-environments.json -r htmlextra --reporter-htmlextra-export reports/test-report.html"
+    "test": "newman run collections/bookstore-api-collection.json -e environments/bookstore-api-environments.json -r htmlextra --reporter-htmlextra-export test-report.html"
   },
   "author": "",
   "license": "ISC",
